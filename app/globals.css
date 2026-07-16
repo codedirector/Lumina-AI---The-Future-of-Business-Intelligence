@@ -1,10 +1,49 @@
 @import "tailwindcss";
+@layer utilities {
+  .clip-triangle {
+    /* clip-path: polygon(99% 99%, 100% 41%, 49% 100%); */
+    clip-path: polygon(100% 30%, 100% 100%, 44% 100%, 75% 70%);
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+  }
 }
 
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #8B5CF6;
+  --primary-foreground: #110e1a;
+  --secondary: #06B6D4;
+  --tertiary:#947AFC;
+  --neutral:#000000;
+  --font-geist-sans: "Geist Sans", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+
+} */
+ :root {
+  --background: #FFFFFF;
+  --foreground: #0F172A;
+
+  --primary: #7C3AED;
+  --primary-hover: #6D28D9;
+  --primary-foreground: #FFFFFF;
+
+  --secondary: #3B82F6;
+  --tertiary: #A78BFA;
+
+  --card: #FFFFFF;
+  --muted: #F8FAFC;
+  --muted-foreground: #64748B;
+
+  --border: #E2E8F0;
+
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+
+  --font-geist-sans: "Geist Sans", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+}
+/*
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -17,10 +56,25 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+   background: var(--primary-foreground);
+  /* color: var(--primary);  */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+   /* background-image:
+    linear-gradient(to right, rgba(255,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.08) 1px, transparent 1px);
+
+  background-size: 40px 40px; */
+  /* background-color: #0f172a; */
+  /* background-color: #820c8f; */
+}
+* {
+
+   overscroll-behavior-y: none;
 }
