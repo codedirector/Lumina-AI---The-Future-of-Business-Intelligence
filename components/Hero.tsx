@@ -55,9 +55,9 @@ export const Hero = () => {
 
 
         <h1 className="mt-8 text-center font-bold leading-none text-[2.8rem] sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
-  <span className="text-[var(--primary)]">The </span>
+  <span className="text-black">The </span>
 
-  <span className="relative inline-block text-[var(--secondary)]">
+  <span className="relative inline-block text-[var(--primary)] ">
     Future
 
     <svg
@@ -80,11 +80,11 @@ export const Hero = () => {
     </svg>
   </span>
 
-  <span className="text-[var(--primary)]">,</span>
+  <span className="text-black">,</span>
 
   <br />
 
-  <span className="text-[var(--primary)]">
+  <span className="text-black">
     of Business Intelligence
   </span>
 </h1>

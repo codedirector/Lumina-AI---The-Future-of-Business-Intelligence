@@ -42,7 +42,7 @@ export const Testimonials = () => {
   ]
 
   return (
-    <section className="w-full bg-black py-20">
+    <section className="w-full bg-black py-20 ">
       <div className="mx-auto max-w-7xl px-5">
         {/* Heading */}
 

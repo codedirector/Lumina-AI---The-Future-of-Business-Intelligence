@@ -16,7 +16,7 @@ const Home = () => {
     <Features />
     <div className="h-[100px] bg-black"></div>
     <Paragraph />
-    
+    <div className="h-[100px] bg-black"></div>
         <Testimonials/>
     <Footer/>
     
